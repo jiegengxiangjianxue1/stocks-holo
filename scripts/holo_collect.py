@@ -8,7 +8,7 @@
 import json, urllib.request, duckdb, datetime, os, sys, time, argparse
 
 BASE = "/home/agentuser/stockdb"
-OUT = "/tmp/holo"
+OUT = "/home/agentuser/stockdb/holo"
 UA = {"User-Agent": "Mozilla/5.0"}
 
 def get_json(u, headers=None, timeout=15):
