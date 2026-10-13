@@ -26,7 +26,7 @@ def main():
     if not br:
         print("仓库空, 需先建首commit"); sys.exit(1)
     base_commit = gh(f"/repos/{ORG}/{REPO}/commits/" + br["object"]["sha"])
-    tree_sha = base_commit["tree"]["sha"]
+    tree_sha = base_commit["commit"]["tree"]["sha"]
     tree = gh(f"/repos/{ORG}/{REPO}/git/trees/{tree_sha}?recursive=1")
     existing = {t["path"] for t in tree.get("tree", [])}
 
