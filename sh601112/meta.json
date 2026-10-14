@@ -1,0 +1,1 @@
+{"symbol": "sh601112", "updated_at": "2026-10-15T04:00:22", "db": {"db_bars": 167, "db_from": "2026-01-29", "db_to": "2026-10-13"}, "provenance": {"kline": "tencent_fqkline", "moneyflow": "sina_moneyflow", "finance": "east_datacenter", "news": "sina", "technical": "calc_local", "sentiment": "em_push2ex"}, "stale_hours": 0}
