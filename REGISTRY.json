@@ -3,9 +3,9 @@
   {
    "agent": "master-qwerzxcva",
    "range": "sh600000-sh603999 (沪市60段)",
-   "ts": "sh600376",
-   "done_last": "sh600376",
-   "done_n": 281,
+   "ts": "sh600420",
+   "done_last": "sh600420",
+   "done_n": 311,
    "note": "另一AI请在segments追加自己段位, 勿改他人条目"
   }
  ]
